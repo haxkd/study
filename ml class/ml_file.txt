@@ -1,0 +1,266 @@
+----------------------------------------------------
+======================NUMPY=========================
+----------------------------------------------------
+install numpy.....
+pip install numpy
+
+
+----------------------------------------------------
+creating a array
+----------------------------------------------------
+
+numpy.array(list)
+
+
+----------------------------------------------------
+create a array automatically
+
+----------------------------------------------------
+
+numpy.arrange(value)
+
+numpy.linspace(start,end,number)
+----------------------------------------------------
+how to reshape of array
+
+----------------------------------------------------
+
+
+array.reshape(x,y)
+
+x = no. of rows
+y = no. of columns
+
+x*y = must be total no. of elements present in array
+
+----------------------------------------------------
+check the shape of the array
+----------------------------------------------------
+
+array.shape
+
+
+
+----------------------------------------------------
+iteration of an array
+----------------------------------------------------
+complete iteration of array for all elements
+
+numpy.nditer(array)
+
+----------------------------------------------------
+Joining of an array
+----------------------------------------------------
+complete Joining of array for all elements
+numpy.concatenate((arr1,arr2,arr3))
+
+
+Joining by the axis of array for all elements
+numpy.stack((arr1,arr2,arr3))
+
+----------------------------------------------------
+Generate random array
+----------------------------------------------------
+
+random.random(size of array)
+random.randint(start,stop,size)
+random.rand(shape value)
+random.randn(shape value)
+
+
+
+----------------------------------------------------
+======================PANDAS=========================
+----------------------------------------------------
+installing pandas............
+
+pip install pandas
+
+
+
+
+----------------------------------------------------
+how to create a datafram
+----------------------------------------------------
+
+data = {
+  "calories": numpy.arange(4),
+  "duration": [50, 40, 45,50],
+  "age": [1, 4, 5,2],
+}
+
+
+frame = pd.DataFrame(data)
+
+----------------------------------------------------
+how to get single attribute data of a datafram
+----------------------------------------------------
+
+
+frame.age
+or
+frame['age']
+
+
+----------------------------------------------------
+how to get top 5 or last 5 data of a attribute from a datafram
+----------------------------------------------------
+
+frame.head()
+frame.tail()
+
+----------------------------------------------------
+how to get pericular location data from a datafram
+----------------------------------------------------
+
+frame.loc[1]
+
+----------------------------------------------------
+how to get pericular data in range from a datafram
+----------------------------------------------------
+
+frame.loc[[1,2]]
+
+
+
+
+----------------------------------------------------
+how to read data from csv
+----------------------------------------------------
+
+data = pd.read_csv('file')
+
+
+----------------------------------------------------
+how to clean null value from datafram
+----------------------------------------------------
+1. remove proper row
+data.dropna()
+
+2. fill specific value in null position
+
+data["Age"].fillna(value, inplace = True)
+
+data.Age.fillna(value, inplace = True)
+
+
+2. fill mean value in null position
+x = data["Age"].mean()
+
+data["Age"].fillna(x, inplace = True)
+
+4. fill median value in null position
+x = data["Age"].median()
+
+data["Age"].fillna(x, inplace = True)
+
+
+5. fill mode value in null position
+x = data["Age"].mode()
+
+data["Age"].fillna(x, inplace = True)
+
+
+
+
+
+
+
+
+
+----------------------------------------------------
+how to clean null value from dataframe using sklearn
+----------------------------------------------------
+
+
+from sklearn.impute import SimpleImputer
+imputer = SimpleImputer(missing_values=np.nan,strategy='mean')
+imputer = imputer.fit(x[:,1:3])
+x[:,1:3] = imputer.transform(x[:,1:3])
+
+
+----------------------------------------------------
+how to Encode Label of dataset using sklearn
+----------------------------------------------------
+
+
+from sklearn.preprocessing import LabelEncoder
+label_encoder_x = LabelEncoder()
+x[:,0] = label_encoder_x.fit_transform(x[:,0])
+
+
+and 
+
+HotEncoder
+
+
+from sklearn.preprocessing import OneHotEncoder
+
+onehotencoder = OneHotEncoder()
+x = onehotencoder.fit_transform(dataset.Region.values.reshape(-1,1)).toarray()
+
+
+
+
+
+----------------------------------------------------
+TYPES OF MACHINE LEARNING
+----------------------------------------------------
+1. SUPERVISED ML
+
+    LABELED DATASET-->MODEL-->prediction
+    
+
+2. UNSUPERVISED ML
+
+    UNLABELED DATASET-->MODEL-->Clusters/Assocation
+    
+
+3. REINFORCEMENT ML
+    Learning Self with it self generates data
+
+
+----------------------------------------------------
+Machine Learning Algorithm SUPERVISED ML
+----------------------------------------------------
+    REGRESSSION---
+        Continuos Nature
+        
+        *1. Linear Regression
+        *2. Polynomial Regression
+         3. Regression Trees
+    
+    CLASSIFICATION---
+        Group 
+            
+        *1. Random Forest
+        *2. Decison Trees
+        *3. Logistic Regression
+                i. Single Class (Binary Classification)
+                ii. Multi Class 
+        4. Supprt Vector Machine
+    
+----------------------------------------------------
+UNSUPERVISED Machine Learning Algorithm 
+----------------------------------------------------
+
+    *1. K-Means Clustering
+    *2. KNN (K-Nearest Neighbor)
+    3. Neurol Networks
+    4. Hierarchical Clustering
+
+
+
+
+
+----------------------------------------------------
+SUPERVISED ML --2. Polynomial Regression--
+----------------------------------------------------
+
+from sklearn.preprocessing import PolynomialFeatures
+my_poly = PolynomialFeatures(degree=2)
+x_poly = my_poly.fit_transform(x)
+my_model2 = linear_model.LinearRegression()
+my_model2.fit(x_poly,y)
+y_poly = my_poly.fit_transform([[6.5]])
+my_model2.predict(y_poly)

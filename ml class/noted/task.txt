@@ -1,0 +1,32 @@
+Q. Write a program to sort the characters of the string which have alphabet and digit values.
+
+Q. Write a program to remove duplicate characters from the given input string?
+
+Q. Program to reverse internal content of each word.
+
+Q. Program to merge characters of 2 strings into a single string by taking characters 
+alternatively.
+
+Q. Write a program to take a tuple of numbers from the keyboard and print its sum and
+average?
+
+Q. Write a program to print different vowels present in the given word?
+
+Q. Write a program to find number of occurrences of each word present in the given paragraph?
+
+Q. Write a program to accept student name and marks from the input and creates a dictionary. 
+	then display student name and marks.  
+	there after Print name and marks of min and max marks.....
+
+
+Q. Create a program which have functions........
+which will allow the user to:
+- Add new data
+- See all data entered
+- Find an item, to see whether it has been entered or not
+- View a summary of statistics: amount of data, sum, average, maximum, minimum
+- Exit the program
+These options must appear as a menu.
+Each option will be chosen by a number or a letter.
+keep count of how many data actually exist.
+

@@ -1,0 +1,98 @@
+
+----------------------------------------------------------------
+
+
+Q. 
+
+l = [0,0,1,2,-4]
+for x in l:
+    if x%4==0:
+        l[x]=x
+    else:
+        l[x%4]=x
+print(l)
+
+
+----------------------------------------------------------------
+
+Q.
+
+list1= ["aa2","Ba1","C0aa","aa4a"]
+def find_val():
+    for index in range(0,len(list1)):
+        account = get_str(list1[index])
+        if account>=2 and list1[index].endswith("a"):
+            list1[index] =list1[index].replace("a","A")
+
+def get_str(temp_str):
+    return temp_str.count("a")
+find_val()
+print(list1)
+
+
+
+----------------------------------------------------------------
+
+
+Q.
+
+var1 = 1
+var2 = 3
+count = 0
+while(count!=3):
+    if(var1<var2):
+       var1*=3
+       var2+=2
+    else:
+        print(var1,var2)
+        break
+    count+=1
+
+----------------------------------------------------------------
+
+
+Q.
+
+
+num1 = 4
+num2 = 5
+num3 = 6
+num4 = 8
+if(num2//num1)<num1:
+    if(num3-2>= num1):
+        print(num3)
+    else:
+        print(num2)
+else:
+    print(num3)
+	
+
+----------------------------------------------------------------
+
+Q.	
+	
+	
+name2 = "Buddy"
+def function1(name):
+    name = name+" "+name2+" "+function2(name)
+    return name
+    
+def function2(name):
+    name = "Binny"
+    return name
+name = "Roger"
+name1 = function1(name)
+print(name1)
+
+
+----------------------------------------------------------------
+
+Q.
+
+a=5
+b=5
+c=1
+d=1
+i=0
+
+print((a+b)>(c/d) and i<=(a-c*b))

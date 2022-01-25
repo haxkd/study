@@ -1,0 +1,666 @@
+Web Application:
+===================
+The applications which will provide services over the web are called web applications.
+Eg: gmail.com, facebook.com, softwarevideos.com etc
+Every web application contains 2 main components:
+1) Front-End
+2) Back-End
+
+
+1) Front-End:
+=============
+1)It represents what user is seeing on the website
+2)We can develop Front-End content by using the following technologies:
+3) HTML, JS, CSS, JQuery and BootStrap
+4)JQuery and Bootstrap are advanced front-end technologies, which are developed by
+using HTML, CSS and JavaScript only.
+
+
+
+HTML:
+=====
+
+1)HyperText Markup Language
+2) Every web application should contain HTML. i.e HTML is the mandatory technology for web development.
+3)It represents structure of web page
+
+CSS:
+======
+1) Cascading Style Sheets
+2)It is optional technology, still every web application contains CSS.
+3) The main objective of CSS is to add styles to the HTML Pages like
+ colors, fonts, borders etc.
+
+Java Script:
+=============
+
+1) It allows to add interactivity to the web application including programming logic.
+2)The main objective of Java Script is to add functionality to the HTML Pages. ie to add dynamic nature to the HTML Pages.
+1) HTML : Meant for Static Responses
+2) HTML+JS : Meant for Dynamic Responses..
+Eg 1: To display "Welcome to BTPS" response to the end user only HTML is enough,b'z it is static response.
+Eg 2: To display current server date and time to the end user, only HTML is not enough we required to use some extra technology like JavaScript,JSP,ASP,PHP etc as it is dynamic response.
+
+Static Response vs Dynamic Response:
+=======================================
+
+If the response is not varied from time to time and person to person then it is considered as static response.
+Eg: Login Page of Gmail
+ Home Page of ICICI Bank
+If the response is varied from time to time and person to person then it is considered as dynamic response.
+Eg: Inbox Page of Gmail
+ Balance Page of ICICI Bank
+ 
+2) Back End:
+====================
+
+1)It is the technology used to decide what to show to the end user on the Front-End.ie Backend is responsible to generate required response to the end user,which is displayed by the Front-End.
+2)Back-End has 3 important components:
+1) The Language like Java,Python etc
+2) The Framework like DJango,Pyramid,Flask etc
+3) The Database like SQLite,Oralce,MySQL etc
+3)For the Backend language Python is the best choice b'z of the following reasons:
+Simple and easy to learn, libraries and concise code.
+4) For the Framework DJango is the best choice b'z it is Fast, Secure and Scalable. Django is the most popular web application framework for Python.
+5) DJango provides inbuilt database which is nothing but SQLite, which is the best choice for database.
+6) The following are various popular web applications which are developed by using Python and DJango
+7) YouTube, Dropbox, Quora, Instagram, Reddit, Yahoo Maps etc
+
+
+
+
+
+Django
+----------
+1) Django is Backend web deveploment framework which is also freeware  and open source web framework.
+
+2) It is written in python ie. Completely developed by using Python.
+
+3) It follows the Model-View-Template (MVT) archietectural pattern.
+
+4)It is maintained by the Django Software Foundation(DSF) which is  a open source organisation ie. it is a non profitable Community and it is eligible to get donation.
+
+5)It is used by several top websites like Youtube , Google ,Dropbox, Yahoo Maps, Mozilla , Instagram, Washington Times, Nasa ......
+
+6)Django was created in 2003 as an internal project at Lowerance Journal-World News Paper for thier web development.
+
+7)The original authors of Django framework are: Adrian Holovaty, Simon Willison
+
+8)After Testing this framework with heavy traffic , Developers released for the public open source framework on July 21st 2005.
+
+9) The Django was named in the memory of the guitarist Django Reinhardt.
+
+10) Official Website: djangoproject.com.
+
+Top features of Django Framework:
+---------------------------------------
+
+Django was invented to meet fast-moving newsroom deadlines, while satisfying the tough requirements of experienced Web developers.
+The following are main important features of Django:
+
+1)Ridiculusly Fast:
+====================
+Django was designed to help developers take applications from concept to completion as quickly as possible.
+
+2)Fully Loaded:
+===============
+Django takes care of user authentication, content administration, site maps, RSS feeds, and many more tasks
+
+3)Security
+==============
+Django takes security seriously and helps developers avoid many common security mistakes.Its user authentication,cross site request forgery system provides a secure way to manage user accounts and passwords.
+
+4)Scalability
+===============
+Django’s ability to quickly and flexibly scale to meet the heaviest traffic demands.
+
+5)Versatile
+=============
+Django to build all sorts of things — from content management systems to social networks to scientific computing platforms.
+
+6)Multilingual Support:
+=========================
+Django supports multilingual websites through its built-in internationalization system.
+So you can develop your website , which would support multiple languages.
+
+7)Framework Support:
+=====================
+Django has built-in support for Ajax , RSS , and other various other framework.
+
+8)Built in Web Server Support:
+================================
+Django comes in with a built in lightweight web server to facilitate end-to-end application development and testing.  
+
+
+Note:  As Djnago is specially designed for web application framework the most commonly required activities will takes care automatically by django and hence Developers life is easy.
+
+Django Project vs Django Application:
+======================================
+A Django project is a collection of applications and configurations which forms a full web
+application.
+eg:Bank Application
+A Django Application is responsible to perform a particular task in our entire web
+application.
+eg:Login , Account Management etc.
+
+Project = Several Applications + Configuration Information
+
+Note:
+====
+1) The Django applications can be plugged into other projects.ie these are reusable.
+(Pluggable Django Applications)
+2) Without existing Django project there is no chance of existing Django Application.
+Before creating any application first we required to create project.
+
+
+How to create Django Project:
+=================================
+
+Once we installed django in our system, we will get 'django-admin' command line tool,
+which can be used to create our Django project.
+
+=========>>>>>>>>>>>install python , pip( pip stands for "preferred installer program".)
+
+===============>>>>>>>>>>>>>>>>pip install virtualenvwrapper-win
+===============>>>>>>>>>>>>>>>>mkvirtualenv name_of_env
+===============>>>>>>>>>>>>>>>>pip install django
+===============>>>>>>>>>>>>>>>>django-admin --version
+===============>>>>>>>>>>>>>>>start project=====>>>django-admin startproject firstProject
+===============>>>>>>>>>>>>>>>Activate Virtualenv ===> workon name_of_env
+
+Project Structure:-
+----------------------
+
+D:\django\Projects>
+|
++---firstProject
+	¦
+ 	¦---manage.py
+ 	¦
+ 	+---firstProject
+ 		¦---settings.py
+ 		¦---urls.py
+ 		¦---wsgi.py
+ 		¦---asgi.py
+ 		¦--- __init__.py
+
+
+==============================
+The Files and its Work
+-------------------
+
+
+__init__.py:
+==================
+It is a blank python script.Because of this special file name, Django treated this folder as python package.
+
+Note: If any folder contains __init__.py file then only that folder is treated as Python
+package.But this rule is applicable until Python 3.3 Version. 
+
+settings.py:
+=================
+In this file we have to specify all our project settings and and configurations like
+installed applications, middileware configurations, database configurations etc 
+
+urls.py:
+================
+
+Here we have to store all our url-patterns of our project.
+For every view (web page), we have to define separate url-pattern. End user can use
+url-patterns to access our webpages.
+ 
+wsgi.py:
+============
+
+Web Server Gateway Interface.
+We can use this file while deploying our application in production on online server.
+
+manage.py:
+============
+
+The most commonly used python script is manage.py
+It is a command line utility to interact with Django project in various ways like to run
+development server, run tests, create migrations etc.
+
+How to Run Django Development Server:
+========================================
+
+We have to move to the manage.py file location and we have to execute the following
+command.
+py manage.py runserver
+D:\djangoprojects\firstProject>py manage.py runserver
+Performing system checks...
+System check identified no issues (0 silenced).
+You have 13 unapplied migration(s). Your project may not work properly until you apply
+the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 03, 2018 - 15:38:59
+Django version 1.11, using settings 'firstProject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Now the server started.
+
+
+How to Send First Request:
+=============================
+Open browser and send request:
+
+http://127.0.0.1:8000/
+
+Role of Web Server:
+===================
+1)Web Server provides environment to run our web applications.
+2)Web Server is responsible to receive the request and forward request to the
+corresponding web component based on url-pattern and to provide response to the
+end user.
+3)Django framework is responsible to provide development server. Even Django
+framework provides one inbuilt database sqlite. Special Thanks to Django.
+
+Note:
+======
+Once we started Server a special database related file will be generated in our
+project folder structure.
+
+db.sqlite3
+
+Once we creates Django project, we can create any number of applications in that project.
+The following is the command to create application.
+
+python manage.py startapp firstApp
+
+D:\djangoprojects\firstProject>python manage.py startapp firstApp
+The following is the folder structure got created.
+
+D:\djangoprojects>
+└───firstProject
+ │ db.sqlite3
+ │ manage.py
+ │
+ ├───firstApp
+ │ │ admin.py
+ │ │ apps.py
+ │ │ models.py
+ │ │ tests.py
+ │ │ views.py
+ │ │ __init__.py
+ │ │
+ │ └───migrations
+ │ __init__.py
+ │
+ └───firstProject
+ │ settings.py
+ │ urls.py
+ │ wsgi.py
+ │ __init__.py
+ 
+Note:
+======
+Observe that Application contains 6 files and project contains 5 files+ one special
+file: manage.py
+=====
+1) __init__.py:
+===================
+It is a blank Python script. Because of this special name,Python treated this folder as a
+package.
+
+2) admin.py:
+==================
+We can register our models in this file. Django will use these models with Django's
+admin interface.
+
+3) apps.py:
+====================
+In this file we have to specify application's specific configurations.
+
+4) models.py:
+===================
+In this file we have to store application's data models.
+5) tests.py:
+====================
+In this file we have to specify test functions to test our code.
+
+6) views.py:
+================
+
+In this file we have to save functions that handles requests and return required
+responses.
+
+7) Migrations Folder.:
+======================
+This directory stores database specific information related to models.
+
+Note: 
+=======
+The most important commonly used files in every project are views.py and models.py
+
+
+
+
+
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+=====================================================================
+--------------------------STATIC FILES--------------------
+=====================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+A web site requires different types of files such as image files,video files , css files,javascript files for proper working .
+IN django we call these files as STATIC FILES.
+
+We need to create a new folder called STATIC in project main directory and store all our static files in that new folder.
+
+we have to add path in settings.py file so that django will recoginze Static files.
+
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS=[
+STATIC_DIR,
+] 
+
+Django Template Language------------{{}}--------normal variables
+=========================================
+
+Use Jinja to inject data or python code in our Html template.
+
+
+{% load static %}------>>> predefined code
+
+
+jinja syntax====>>> {%    %}
+
+
+
+Use Template Tags to insert image
+========================================
+At the beginning of HTML just after <!DOCTYPE html> we have to include the following
+template tag {% load static %}
+Just we are conveying to the Django to load all static files.
+We have to include image file as follows <img src="{% static "images/divine3.jpg"% }">
+
+
+
+How to include CSS File:
+=========================
+
+1) Create a folder 'css' inside static and place our demo.css file in that css folder.
+
+
+2) In the template html file we have to include this css file. We have to do this by using
+link tag inside head tag.
+ <link rel="stylesheet" href="{% static "css/demo.css" %}" >
+
+
+Template Tags:
+=================
+
+From Python views.py we can inject dynamic content to the template file by using
+template tags.
+Template Tags also known as Template Variables.
+Take special care about Template tag syntax it is not python syntax and not html syntax.
+Just it is special syntax.
+Template Tag Syntax for inserting Text Data: { {insert_date} }
+This template tag we have to place inside template file (ie html file) and we have to
+provide insert_date value from python views.py file.
+
+
+Context Dictionary
+====================
+The values to the template variables should be passed from the view in the form of dictionary as argument to context.
+
+
+Working with Models and Databases:
+=====================================
+
+As the part of web application development, compulsory we required to interact with
+database to store our data and to retrieve our stored data.
+Django provides a big in-built support for database operations. Django provides one
+inbuilt database sqlite3.
+For small to medium applications this database is more enough. Django can provide
+support for other databases also like oracle, mysql,postgresql etc
+
+
+Database Configuration:
+---------------------------
+Django by default provides sqlite3 database. If we want to use this database,we are
+not required to do any configurations.
+The default sqllite3 configurations in settings.py file are declared as follows.
+
+settings.py
+1) DATABASES = {
+2) 'default': {
+3) 'ENGINE': 'django.db.backends.sqlite3',
+4) 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+5) }
+6) }
+
+
+If we don't want sqlite3 database then we have to configure our own database with the following parameters
+1) ENGINE: Name of Database engine
+2) NAME: Database Name
+3) USER: Database Login user name
+4) PASSWORD: Database Login password
+5) HOST: The Machine on which database server is running
+6) PORT: The port number on which database server is running
+
+
+Note: Most of the times HOST and PORT are optional.
+
+How to Check Django Database Connection:
+=============================================
+
+ We can check whether django database configurations are properly configured or not
+by using the following commands from the shell
+D:\djangoprojects\modelProject>py manage.py shell
+>>> from django.db import connection
+>>> c = connection.cursor()
+If we are not getting any error means our database configurations are proper.
+
+
+Configuration of MySQL Database:
+===================================
+
+First we have to create our own logical database in the mysql.
+mysql> create database employeedb;
+We have to install mysqlclient by using pip as follows
+=================>>pip install --only-binary :all: mysqlclient
+settings.py
+1) DATABASES = {
+2) 'default': {
+3) 'ENGINE': 'django.db.backends.mysql',
+4) 'NAME': 'employeedb',
+5) 'USER':'root',
+6) 'PASSWORD':'root'
+7) }
+8) }
+
+Checking Configurations:
+=============================
+
+D:\djangoprojects\modelProject>py manage.py shell
+>>> from django.db import connection
+>>> c = connection.cursor()
+
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+=====================================================================
+--------------------------DJANGO MODELS--------------------
+=====================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+
+
+
+Model Class:
+=============
+
+A Model is a Python class which contains database information.
+A Model is a single, definitive source of information about our data. 
+It contains fields and behavior of the data what we are storing.
+Each model class  maps to one database table.
+Every model is a Python class which is the child class of (django.db.models.Model)
+Each attribute of the model represents a database field.
+We have to write all model classes inside ‘models.py’ file.
+
+1. Create a project and application and link them.
+ django-admin startproject modelProject
+ cd modelProject/
+ python manage.py startapp testApp
+ 
+ 
+After creating a project and application, in the models.py file, write the following code:
+models.py
+-----------
+1) from django.db import models
+2)
+3) # Create your models here.
+4) class Employee(models.Model):
+5) 	eno=models.IntegerField()
+6) 	ename=models.CharField(max_length=30)
+7) 	esal=models.FloatField()
+8) 	eaddr=models.CharField(max_length=30)
+
+
+Note: This model class will be converted into Database table. Django is responsible for
+this.
+table_name: appName_Employee
+fields: eno, ename, esal and eaddr. And one extra field: id
+behaviors: eno is of type Integer, ename is of type Char and max_length is 30 characters.
+
+
+
+Hence, Model Class = Database Table Name + Field Names + Field Behaviors
+
+
+
+Converting Model Class into Database specific SQL Code:
+=======================================================
+
+Once we write Model class, we have to generate the corresponding SQL Code. For this, we
+have to use “makemigrations” command.
+
+
+Python manage.py makemigrations
+
+
+It results the following:
+Migrations for 'testApp':
+ testApp/migrations/0001_initial.py
+ 
+ 
+ 
+How to see corresponding SQL Code of Migrations:
+ =========================================================
+To see the generated SQL Code, we have to use the following command “sqlmigrate”
+
+
+
+python manage.py sqlmigrate testApp 0001
+
+
+
+1) BEGIN;
+2) --
+3) -- Create model Employee
+4) --
+5) CREATE TABLE "testApp_employee" ("id" integer NOT NULL PRIMARY KEY AUTOIN
+CREMENT, "eno" integer NOT NULL, "ename" varchar(30) NOT NULL, "esal" real N
+OT NULL, "eaddr" varchar(30) NOT NULL);
+6) COMMIT;
+
+
+Note: Here 0001 is the file passed as an argument
+
+
+
+“id” field:
+1) For every table(model), Django will generate a special column named with “id”.
+2) ID is a Primary Key. (Unique Identifier for every row inside table is considered as a
+primary key).
+3) This field(id) is auto increment field and hence while inserting data, we are not
+required to provide data for this field.
+4) This id field is of type “AutoField”
+5) We can override the behavior of “id” field and we can make our own field as “id”.
+6) Every Field is by default “NOT NULL”.
+
+
+How to execute generated SQL Code (migrate Command):
+========================================================
+
+After generating sql code, we have to execute that sql code to create table in database.
+For this, we have to use ‘migrate’ command.
+
+------->>>>python manage.py migrate
+
+What is the Advantage of creating Tables with ‘migrate’ Command
+===============================================================
+If we use ‘migrate’ command, then all Django required tables will be created in addition to
+our application specific tables. If we create table manually with sql code, then only our
+application specific table will be created and django my not work properly. Hence it is
+highly recommended to create tables with ‘migrate’ command.
+
+
+How to Check created Table in Django admin Interface:
+========================================================
+
+We have to register model class in ‘admin.py’ file.
+admin.py
+1) from django.contrib import admin
+2) from testApp.models import Employee
+3)
+4) # Register your models here.
+5)
+6) admin.site.register(Employee)
+
+
+Creation of Super User to login to admin Interface:
+========================================================
+We can create super user with the following command by providing username, mailid,
+password.
+----------------->>>>python manage.py createsuperuser
+We can login to admin interface → Start the server and login to admin interface using
+the created credentials.
+-------------->>>>>python manage.py runserver
+Open the following in browser: http://127.0.0.1:8000/admin/
+
+
+
+Difference between makemigrations and migrate:
+=====================================================
+
+
+“makemigrations” is responsible to generate SQL code for Python model class whereas
+“migrate” is responsible to execute that SQL code so that tables will be created in the
+database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

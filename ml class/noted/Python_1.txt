@@ -1,0 +1,2233 @@
+1-Python is Programming Language.
+2-it is developed by  Guido Van Rossam in 1989 .
+3-ITs Official version is Launched in 1991.
+4-IT is High Level Progrmmming Language.
+5-IT is genral Purpose PL means we can use Python in
+web Development,Software Development,DataScience Appl-,ML,AI,IOT
+6-IT is Dynamically Typed PL where as c,java is statically Typed PL
+7-python name is taken from Monty Python Flying Circus.
+8-Python is interpreted PL Becoz python don't have any compiler like c,c++,java.
+9-The extention of Python prog- is .py
+
+-java is compilateive and interpretaive PL
+WHERE AS pYTHON IS ONLY INTERPRETAIVE pl.
+
+Programming Structure of Pyhton:-
+......................................
+
+only statements
+...............
+..............
+
+
+
+NOTE-Python follow many programmings Style to write the programe in Python.
+
+Python Follow:
+
+1-Functional Programming Style from C PL
+2-OOPs Style from C++ PL.
+3-Scripting Language Style from Perl and Shell Scripting.
+4-modular Programming Style from Modula-3.
+
+most of Syntax or Features, Python has taken from  C and ABC PL.
+
+what types of Applcation we can develop using Python?
+or
+where we use Python?
+..........................................................
+1-Desktop Application
+2-Web Application
+3-Networking Based Applciation
+4-Games
+5-ML
+6-AI
+7-FOR IOT (Internet of things) Based Appli-   IOT WITH Any Programming Language like python or java or C
+
+IOT IS TOO much compatiable with Python [Rich Lib--are available...]
+
+Core Requirment
+........................
+Go to www.python.org. ...download the python
+
+
+Python IDE:
+..................
+1-Pycharm
+2-Eclipse
+3-Spyder
+......  
+
+
+Features of Python
+.......................
+1-Simple Programming Language and easy to Learn.
+2-High Level PL
+       
+
+2-OOP Concept Follow
+3-Plateform Independent
+4-Open Source
+..................
+python is open Source means
+1-Free of Cost means No Licence is Required
+2-ITs Source code is available
+Beooz of Open Source we are able to create our own pvm so that we can say Python is
+PI .
+
+
+
+5-Portability
+7-Dynamically Typed PL
+8-Interpreted PL
+9-Extensive Lib Support from Python
+10-Embedded
+  Otehr Programming Language code we can embedded in pytho according to our requirement
+11-Extensible
+
+
+Drawback of Python
+........................
+Performance
+Not better us python use in Mobile Applciation.
+some Ex. of Predefined Lib..
+............................
+ex:- To print the squre root of a no...
+    import math
+    print(math.sqrt(9))
+
+
+ex:- How to genrate otp 4 disit to send the use..
+....................................................
+from random import*
+print(randint(0,9),randint(0,9),randint(0,9),randint(0,9))
+
+
+Python Version:
+....................
+-Python version 1.0---1994
+-Python version 2.0----2000
+-Python version 3.0-----2008
+
+Note:-- Python version 2 Prog- can't be run in Python 3
+
+ex:  print "btps"  valid in Python 2 but not valid Python 3
+
+In Python 3 we use
+print("btps");
+
+
+
+
+
+what is  Identifier in Python?
+..................
+->whatever the name we uaing in Python prog- is called as Identifers.
+->Identifiers are the "name" in Python Programe is 
+called as Identifiers.
+It can be..
+a-class Name
+b-function name
+c-variable name
+ 
+Why we use Indentifiers?
+............................
+Identifiers are used in Python Program for 
+Identification Purpose.
+
+
+Rules for Defining Identifiers.
+....................................
+1-The valid characters in Python identifiers are:
+ a-z,A-Z,0-9,Underscore(_) Symbol only.
+
+$ doller symbole is not there but used in java..
+
+ex:-  ab#c=20 invalid
+      ab_c=40  valid
+       abc@=30  invalid 
+
+
+
+
+2-Identifers  should not start from Digit.
+ ex. xyx12=10  (valid)
+     12xyx=20   (invalid)
+
+3-No Length Restriction but choose short name as Identifiers. 
+
+4-Python Identifiers are case Sensitive.
+     
+
+5-we can't use  Keywords/reserved words as Identifers .
+ ex. if=10 invalid..
+     double=10 valid..  In Python double is not reserve as keyword
+      def=20    invalid
+
+
+
+
+Keywords/Reserved Words in Python
+................................
+Keyword are the predefined words, It has some functionality(Working) & its funtionality(working) 
+is register with pvm.
+
+
+Total 33 keywords are used in Python
+
+if, else,elif,while,break,for,continue,return,in,yield
+try,except,finally,raise,assert
+import,from,as,class,def,pass,global,nonlocal,lambda,del,with
+and ,or,not,is
+True,False,None 
+
+
+
+
+Note:-
+Only 3 keywords in Python start from Capital Letter-- True,False,None.
+Rest of All keywords are in Lower case..
+
+
+
+
+InBuilt function
+....................
+Python provide us inbuilt function to perform various operation.
+1-print()
+................
+this function is used to print any message or output
+2-input()
+............
+this function is used to take input from user..
+Ex:
+a=int(input("Enter a no.."))
+b=int(input("Enter a no.."))
+c=a+b
+print(c)
+
+
+
+
+
+
+
+3-type()
+...........
+this function is used to show the datatype of variable at runtime
+
+a="btps"
+type(a)-->str
+
+
+
+4-id()
+.........
+this function is used to print address of an Object [address of memory Lcoation]
+
+Ex:-  a=20;
+      id(a)   -->return the address of an object.
+
+Python datatypes
+.....................
+Based on value Python decide the data type at run time that's why we can say that
+python is Dynamically Typed PL.
+
+int
+float
+bool
+str
+bytes
+bytearray
+range
+list
+tuple
+set
+frozenset
+dict
+complex
+None
+
+Note:-In Python every thing is an object.
+
+
+int data types
+..................
+If you want to represnt integral values (without decimal point values),
+we can use int data type.
+
+ex:-3,4,6,....
+mobile no- 904490033,rollno=53533535384757
+
+
+
+In Python  3- long datatype is not available but version 2 it is there.
+
+There 4 ways to represnt int values
+
+1-Decimal Form  (Base-10)[0-9]
+..................
+Ex. a=6767
+    print(a)
+
+
+2-Binary Form (Base-2)[0 and 1 allowed]
+.........................................
+a=0b1111    or a=0B1111  [0b or 0B represent Binary value]
+print(0b1111)--15
+
+3-Octal Form  [Base-8][0-7 disits are allowed]
+..............
+Ex:  a=777 
+for octal no.. [0o or 0O  represent Octal no..]
+a=0o7777
+
+
+4-Hexa Decimal Form (Base -16)[0,9, a to f or A to F]
+.....................................................
+                   [0x or 0X represent Hexa Deicmal no..]
+Ex:-
+a=0xface
+print(a)
+
+b=0xswati   //invalid
+
+
+
+
+a=10
+b=0b10
+c=0o10
+d=0x10
+
+print(a)    ----10
+print(b)   ---binary --2
+print(c)   ---- octal--8
+print(d)    ----Hexa ---16
+
+
+
+
+
+
+
+bool
+......
+True and False we use only
+
+True ---represent in Pyhton as 1
+False--- represent in Python as 0
+
+True+True=2
+True+False=1
+
+str dataype
+................
+this data type is used to represent String value(group of characters)
+
+we can represent string value in
+single quotes
+double qoutes
+triple qoutes : - for Mlutiple Lines we use.
+
+slice operator
+.................
+IT is very useful operator used in Python
+it is used to get substring.
+
+   Syntax:
+           s[beginindex:endindex]
+Note: EndIndex always end-1 index.
+
+s[1:4]==>tps
+s[2:6]==>psin
+
+s[1:]==>tpsindia [end index is optional]
+
+s[:4]==>btps
+if you are not specifying begin index then by default it is
+consider as 0 index.
+s[:100] ==>valid   btpsindia
+
+
+s[:]==>btpsindia 
+you will get full string
+s[begin:end:step]
+
+step means how many character you want to jump
+
+
+Ex:
+
+s="btpsindiakanlpur"
+s[1:10]==>tpsindiak
+s[1:10:2]==>tsnik
+
+
+
+
+Complex datatype
+...................
+Syntax:
+
+a+bj
+
+a=real part    
+b=Imaginary part  
+j only , no any other character we can use..
+j^2=-1
+ex:=
+x=10+20j   // valid
+x=20+21.4i  //invalid
+
+
+Note:-real part you can take any  decimal,octal,binary,Hexadecimal
+but imaginary part should be only decimal.
+
+ex:-
+     x=0b1111+20j    valid
+     print(x)==>15+20j
+
+a=15+0b1111j   //invalid
+
+Note: we can also perform various operation on complex datatype
+
+a=10+20j
+b=20+30j
+print(a+b)
+print(a*b)
+print(a-b)
+
+
+
+  
+ 
+
+
+
+
+Types Casting Function or Convertion Finctions
+......................................................
+int()
+float()
+bool()
+str()
+complex()
+
+
+int()
+........
+this function is used to convert any other value in to int type.
+ex:
+     int(12.34)==>12
+ex:
+      int(10+20j)==>error..can't convert complex type in to int
+ex:
+
+    int(True)==>1  valid..
+   int(False)==>0  valid
+
+ex:-int("10")==>10 valid [base 10 only]
+
+    int("10.5")== invalid
+
+
+float()
+..........
+float(10)==>10.0
+flaot(10+20j)==> type error
+float(True)==>1.0
+float(False)===>0.0
+float("10")===>10
+flaot("10.5")===>10.5
+float("ten")===>error
+float("0b1111")  ===>error
+
+
+bool()
+............
+To convert other types to boolean type.
+ 
+for int argument
+...................
+ex:
+bool(0)==>False
+bool(10)===>True
+
+Note:-whenever you use bool() funtion
+ 0 means- False and non-zero means True
+Ex:- bool(-10)==>true
+
+for float argument
+........................
+
+Ex:- bool(0.0)== False
+     bool(0.01)==>True  [apart from 0 any no. is there then true.]
+
+for complex argument
+........................
+E:-
+    bool(10+20j) ===>True
+    bool(0+2j)==>True
+    bool(4+0j)==>True
+    bool(0+0j)==>False
+
+if both real and imaginary part is 0 then only output is False.
+
+for str argument
+.......................
+IF argument is empty string then only it will retun False.
+And for all ohter cases return True.
+
+ex:- bool("heloo")==> True
+     bool("")===> False
+     bool('  ')===>True
+
+str() convertion Function
+..............................
+str() function is used to convert any other type to str.
+
+Ex:- str(10)==>10
+      str(10.5)===>10.5
+      str(True)===>True
+      str(10+20j)==>10+20j
+      
+Complex() function Overloaded Function
+.......................
+this function is used to convert any other type to complex type.
+
+ex:-
+Form-1:-complex(x)==>x+0j
+Form 2:-complex(x,y)==>x+yj
+
+Note:-complex() function is overloaded ,two functions is available.
+
+E:-
+
+ complex(10)==> 10+0j
+ complex(10.5)==> 10.5+0j
+ complex(True)===> 1+0j
+ complex(False)===>0j
+ complex("10")====>10+0j
+ complex("10.5")===>10.5+0j
+
+complex("ten")===>error
+
+
+Form 2:-complex(x,y)==>x+yj
+................................
+complex(10,20)==>10+20j
+complex(True,False)===>1+0j
+complex("10","20")===>error
+complex(False,True)==>1j
+
+
+
+
+what is immutablity  in python
+..................................
+immutablity means --->object non-changble behaviour is nothing but immutablity in python.
+immutabilty means,if you want to perform any changes in  existing object then it is not possible,
+those changes will reflect by creating new object.
+this non changing behaviour is immuatilblity. 
+All fundamental datatypes in python are immutable like int,float,bool,str,complex
+
+Ex: a=10
+    b=20;    total two objects are created
+
+why we use immutablity?
+...........................
+1-memory utilization
+2-performance
+
+what is mutability in python
+..............................
+mutability means----> Object changeble behavious is nothing but mutabilty in pyhton.
+if modification is allowed in existing object then this type of nature of object is nothing but a
+mutablity.
+
+
+is operator in Python[in java we use (==)operator for address comparosin of  objects]
+.............................................................................
+is operator is used to  compare the address(refrences) of objects.
+
+Ex:- x=10
+     y= 10
+    
+     id(x)--
+     id(y)--   both have same address.
+ 
+     x is y=== True
+     y is x===> True
+   
+     
+Note:-
+      x=True
+      y=True
+      z=True
+    
+     x is y ==> True
+     y is x ==> True
+      z is x===> True
+
+special case
+............
+
+x=257
+y=257
+ x is y===>False
+
+reusing existing object in case of int is applicable from 0- 256 only
+for flaot
+............
+x=10.0
+y=10.0
+x is y===> False
+
+for floating point value reusing object is not applicatble
+x=10+20j
+y=10+20j
+x is y===> False
+
+for complex value reusing object is not applicatble
+
+Only for follwing Ranges reusing existing object is Applicable:
+..................................................................
+int ==> 0 to 256  Applicable
+bool==> True and False Applicable
+str===> Applicable
+
+for these two data type reusing exisiting object is not Applicable
+float
+complex
+
+bytes data type
+...................
+it represent a group of  byte number just like an array.
+the range of byte value is 0-256 only
+Byte data type is immutable.
+
+x=[10,20,30]
+b=bytes(x)
+
+how to get byte element
+b[0]==>10
+b[1]==>20
+
+Ex: x=[2,7,257]
+   b=bytes(x)  // Error.. The range is 0-256 only
+
+byte type is immutable
+.......................
+x=[10,20,30,40]                  
+b=bytes(x)
+b[0]==10
+b[0]=4==> get error becoz byte type is immutables
+
+bytearray data type
+.........................
+it also just like a array of bytes
+
+its range is 0-256 only
+but it is mutable
+
+ex:- x=[10,20,30]
+    b=bytearry(x)
+     type(b)==>bytearray
+ b[0]==>10
+b[1]==20
+b[2]==>30
+yes now can we modify the bytearray 
+b[1]=230  
+
+for i in b: print(i)   ==>10 230 30
+
+
+
+list  datatype  [mutable]
+.....................
+it is used to represent group of objects as single entity
+where insertion order is preserved and duplicate 
+objects are alowed.
+In list hetrogeneous objects are allwed.
+in list null value are not allowed.
+List is is mutable type
+Ex> l=[]
+  type(l)==>list
+l.append(10)
+l.append(20)
+l.append(30)
+l.append(10)
+print(l)  
+l.append('btps')
+print(l)
+
+l[0]==>10
+l[1:4]==>20 20 10 btps
+
+
+tuple  datatype 
+.....................
+it is used to represent group of objects as single entity
+where insertion order is preserved and duplicate 
+objects are alowed.
+In tuple hetrogeneous objects are allwed.
+in tuple null value are not allowed.
+tuple is is immutable type.
+Ex:- t=()
+    t=(10,20,"btps",30,10)
+   typle(t)===>tuple
+  t[0]==>10
+  t[0:3]===(10,20,btps)
+   t[0]=765    //invalid  error...
+
+
+Differnce between list and tuple
+....................................
+The main diff is list is mutable and tuple is immutable.
+
+range data type
+....................
+it is used to represent sequence of no.
+range is data type as well as function.
+
+First Form:-  range(1argument)
+
+r=range(10)   // 0 -- 9
+
+Second Form:-  range(1st argument,2nd arguemnt-1)
+               range(10,30)  ---10 to  29
+
+Third Form :-   range(1st arguement,2nd argument,jumping)
+
+range is immutable type.
+
+Ex:- range(10.2)// error for flaot argument range is not applciable...
+
+
+
+
+set data type 
+................
+it is also used to represent group of objects as single entity
+where insertion order is not preserved and duplicate 
+objects are not alowed.
+In set hetrogeneous objects are allowed.
+In set null value are not allowed.
+set is is mutable type.
+set is growable in nature.
+
+
+s={10,20,30,10}  //invalid
+
+s[0]  invalid
+
+Note:-Indexing concept is not applcable becoz insertion order is
+not preserved.
+Hence slicing concept is also not applicable.
+
+set is mutable
+.................
+ex:- 
+s={10,20,30}
+s.add("btps")
+s.add("kanpur")
+printl(s)
+s.remove(10)
+s.remove(20)
+
+
+list [mutable] and tuple [immutable]
+bytes [mutable]  and bytearray [immutable]
+
+set  [mutable]  frozenset [immutable]
+
+
+
+
+
+
+
+
+
+
+frozenset datatype
+.............
+same as set
+it is data type
+it is also a function in python
+immutable
+
+s={20,30,40}
+fs=frozenset(s)
+type(fs)
+
+print(fs)
+
+fs.add(50)   //error
+fs.remove(20)  //errro....
+In frozenset threre is no method of add() and remove().
+
+
+
+dict(dictionary) datatype
+...........................
+it is used to represent  group of values
+ along with key.
+key-value pair
+Syntax:
+        {key:value,key:value.....}
+
+d={}
+type(d) //  dict
+d={10:"anuj",11:"ram",12:"shyam"}
+
+In key duplicate values are not allowed
+but values can be duplicate.
+Ex:
+    d={1:"btps",2:"btps",3:"btps"}   valid..
+
+    d={1:"a",1:"b"}
+
+Note:- key can be any type of object
+and value can be any type of object.
+
+EX:-
+d={}
+d[10]="btps"
+d[11]="kanpur"
+print(d)
+d[10]="btpsindia"
+in dict old value will be replcaed with new value.
+
+
+Operators in Python
+......................
+1-Arithmetic Operator
+......................
+
++ ===>Addtion
+- ===>Subtraction
+*====>Multipication
+/====>Divison 
+%====>Modulo
+//===>Floor Divison Operator
+** ===>Exponent Operator or Power Operator
+Ex>-
+a=10
+b=2
+print(a+b) #12  #  #
+print(a-b)  #8
+print(a*b)  #20
+print(a/b)  #5.0 In python always retrun float value.
+print(a%b)  #0
+print(a//b) #5
+print(a**b)  #100
+/===> always return float value
+//==> int or float
+   if both arguements are int then result will be int
+   if both arguments are flaot then result will be float
+
+Note:-
++ operator appliable for str type also.
+for String concatenation operator
+
+ex:- 
+     "btps"+3  //invalid
+     "btps"+"3" //valid
+     "btps"* 3  //valid
+
+Ex:-
+  10**2===>100
+   10**5===>10*10*10*10*10== 
+
+Relational Operators
+.........................
+>,>=,<,<=
+
+Ex:-
+a=10
+b=20
+print("a>b",a>b) #F
+print("a>=b",a>=b) #F
+print("a<b",a<b)   #T
+print("a<=b",a<=b)  #T
+Note:-
+
+we can alos apply relational operator for string
+ type value also.
+and based on unicode code value  the relational
+operator work.
+  
+A==65
+a==97
+Ex:-
+
+a="btps"
+b="Kanpur"
+
+print("a>b",a>b) #T
+print("a>b",a>=b) #F
+print("a<b",a<b)   #T
+print("a<=b",a<=b)  #T
+
+Note:- we can also apply relational Operartor on boolean values
+a=True  ----1
+
+b=False  -----0
+
+a>b==> True
+a>=b==> True
+a<b===>False
+a<=b===>False
+
+chaining of Relational Operators
+....................................
+10<20<30==>True
+10<20>30<40<60===>False
+True<False===>False
+
+Equality Operatores(==,!=)
+................................
+Ex>-
+ 10==20===> False
+10!=20 ===>True
+False==Flase===>True
+True==True==> True
+"btps"=="btps"==> True
+"btps"==10 ===>False
+
+Note:= (==)operator is used to content comparison where case is important.
+a="btps"
+b="Btps"
+a==b===> False.
+
+
+ 
+
+Logical Operator
+....................
+and                      
+or
+not
+for boolean value
+.....................
+and ===> if both arguemnts are True then only True
+or==>if At least one argument is true then  True
+not
+
+Ex:-
+True and False===False
+True or False===True
+
+For non-boolean types
+.........................
+0 means False                    
+non-zero means True                 not 10==false
+Empty String means False..        
+
+a and b
+.........
+if a calculate false then return is a
+ ohterwise return b
+
+Ex:- 10 and 20 ===>20
+      0 and 20===>  0
+
+      "btps" and 10  ===>10
+       "" and 10 ===> ""
+.........................................
+x or y
+.........
+if x is evaluate to True returns x
+otherwise return y.
+Ex>
+10 or 20 ==>10
+0 or 20  ===>20
+0 or True===> True
+10 or 10/0===>10
+.................................
+not x:
+..........
+ex:-
+not 10===>False
+not ""===>True
+not 0 ==>True
+
+Bitwise operator
+.....................
+&
+|
+^
+these operators are used only for int and boolean values.
+
+4&5==>valid
+True & True===>valid
+10.4& 2.5===>invalid
+"btps"& "swati" ===>invalid
+
+Note:
+& ==> if both bits are 1 then only 1 othersiwse 0
+| ==>if atleast one bit is 1 then 1 otherwise 0
+^===>X-or===>if both bits are differnt then 1 otherwise 0
+1==>0 and 0==>1 just opposite.
+Ex:-
+
+4 & 5 ===>4
+so first find the binary value of 4 is 100
+and binary value of 5 is 101
+so
+100
+101
+.........
+100 is binary of 4 then result is 4
+
+Ex..
+
+4 | 5==>5
+first find the binary of 4 is 100
+and find the binary of 5 is 101
+
+100
+101
+.......
+101--- is the binary of 5 then result is 5
+
+4^5==>1
+100
+101
+......
+ans- 001
+
+Assignment Operator
+...............................
+a,b,c,d=10,20,30,40
+
+Compound assignemnt operator
+...............................
+x=20
+x+=10===>x=x+10==>x=20+10=30
+
+increament or decrement operator are not 
+allowed in python
+x++  //invalid
+x--  //invalid
+
+Ternary Operator (?)
+.................
+
+Syntax:-
+x=(condtion)?firstvalue:secondvalue
+if condtion is true then it will return first value
+otherwise return second value.
+
+x=(10<20)?30:40
+print(x)===>30 
+(wrong) in Python...
+
+Note:- but in Python ternary operator is using 
+this syntx:-
+x=firstvalue if condtion else secondvalue
+x=30 if 10<20 else 40 [right syntax]
+
+Ex:-
+
+a=int(input("Enter a no.."))             40
+b=int(input("Enter a no.."))              30 
+
+m=a if a<b else b   ====30
+
+Special Operator
+.....................
+1-Identity Operator (is and is not operator)
+2-Membership Operaotor (in and not in Operator)
+
+Ex:-
+
+a=10
+b=10
+
+print(a is b)  # True
+print(a is not b)  #False
+Ex:-
+
+a="btps"
+b="btps"
+print(a is b)  #True
+
+Ex:-
+l1=[10,20,30]
+l2=[10,20,30]
+print(id(l1))
+print(id(l2))
+print(l1 is l2)  //for address comparison..
+print(l1==l2)   //for content comparison
+
+Membership Operator [in ,not in]
+......................
+this operator is used to 
+check whether Object is member or not.
+l1=[10,20,30]
+print(10 in l1) #True
+print(30 in l1)  #True
+print(40 in l1 )  #False
+
+print(50 is not l1) #True
+
+
+
+Ex:-
+s="hii how r u?"
+print("hii" in s) #True
+print("Hii" in s)  #False
+
+what is module in Python?
+..........................
+A group of variables ,functions,classes is nothing
+but a module.
+
+what is Lib- in Python?
+.........................
+A group of moudles is nothing but Lib-in Python.
+
+Ex:- math module,sys...
+
+Ex:- 
+
+import math
+print(math.sqrt(16))
+print(math.pi) 
+
+we can use aliasing concept in Python
+
+import math as bt
+printl(bt.sqrt(16))  valid
+print(bt.pi)  //valid
+print(math.pi)  //invalid
+Note:- if you have used alias name then compulsory you
+should use alias name only.
+
+>if you want to use perticular fucntion of any moudle then you can use
+
+Ex:-
+from math import sqrt,pi     [Recommonded]
+print(sqrt(16))
+print(pi)
+
+or
+
+from math import *     //[it is not Recommonded]
+print(sqrt(16))
+print(pi)
+
+math module
+...............
+sqrt()
+ceil()
+floor()
+pow(x,y)
+factorial()
+sin()
+cos()...
+
+Ex:-
+
+from math import *
+r=int("Enter Radious of circle")
+a=pi*r*r;
+print("area of circle is",a)
+
+Input and output Functions
+...............................
+how to take input from user or keyboard
+
+In Pyhton 2 there are two functions to take input from user.
+1-raw_input()
+..............
+this function is used to take input as string type
+so we have to use type casting functions.
+
+
+
+
+2- input()
+..............
+this function is also used to take input from user
+and no need  to use types casting.
+
+but in Python 3 only input() function is there
+not raw_iput() function  and compulsory
+we have to use type casting functions to covert 
+them according to your requiement.
+
+
+
+
+
+print() function
+......................
+this function is used to print message or output.
+
+Form1:-
+  print():- without any arguement
+
+Form2:-
+   print(string value)
+    +===>both arguemnts should be str type only
+    *===> one arguement should be str and other should be int
+      ,===> one arguement should be str and other should be int
+
+
+     
+ Form3:
+print() with variable numbmer of arguments
+..........................................
+Ex:-
+a,b,c=10,20,30
+print("the values are :",a,b,c)
+
+we can use sep attribute for seperator purpose.
+
+print(a,b,c,sep=':')
+
+print() with end attribute
+..............................
+print("hii",end='')
+print("helooo",end='')
+print("how r u",end='')
+
+O/p==>hii helooo how r u
+
+print() with formatted string
+...............................
+%i===>int type
+%d====>int type
+%f====>float
+%s====>str type
+
+print("formated string" %(variable list))
+
+ex 1:-
+a,b,c=10,20,30
+print("value of a is %i" %a)
+print("a values is %i and b value  is %i" %(a,b))
+
+ex2:-
+s="btps"
+l=[10,20,30]
+print("%s my list is:%s" %(s,l))
+
+print() with replacement operator
+......................................
+{}==> replacement operator
+
+name="Ram"
+sal=10000
+fnm="Suresh"
+print("helloo {0} your salary is {1} and your father name is{2}".format(name,sal,fnm))
+
+
+
+
+eval() functions
+.....................
+this function is used to solve the expression given by user.
+
+
+x=eval("10+20+30")
+print(x)
+
+Ex:=
+x=input("Enter the Expression")   10+20+30
+y=eval(x)
+print(y)
+
+command Line argument
+..........................
+whenever we run our python prog- and same time
+we are passing some (values) arguemnts is nothing but
+commond line arguments.
+
+how to get these values passed from cmd in Python
+........................................
+For this we have one predefined variable name
+as argv and this variable is defined in 
+sys module.
+
+Note:- argv is list type not array type
+
+Ex:- from sys import argv
+  print(type(argv))  // list
+  print(argv[0])
+  print(argv[1])
+  print(argv[2])
+
+
+
+Ex:
+wap to read  group of int values from cmd Line arguments and print sum of All nos.
+
+from sys import argv
+a=argv[1:]
+sum=0
+for x in a:
+     n=int(x)
+     sum=sum+n
+
+print("sum is ",sum)
+
+
+Flow Control
+.....................
+there are 3 types of Flow Control
+
+1-condtional statement/selection statement
+.................................................
+if statement is used to check the condtion.
+if condtion is true then the statements under if is exceuted
+otherwise statment under else will excecuted.
+
+syntax:
+
+if condtion:
+   print("good")
+
+
+Ex:= 
+nm=input("Enter name")
+if nm=="btps":
+    print("valid name")
+ print("how are you")
+if x:
+   action 1
+else
+   action 2
+
+Note:-else is optional
+
+if-elif-else
+
+if x:
+   ....
+elif y:
+    ....
+elif z:
+    ....
+elif v:
+    ....
+else
+    ....
+
+ex:-
+
+b="Enter your favrite Hero"
+if b=="amit":
+   print("for old movies")
+elif b="mithun":
+     print("for fighting movies")
+elif: b="sunnel"
+      print("for emotuinal movies")
+else
+    print("not for movies")
+  
+
+Ex:-
+wap to read two nos and find out bigger no.
+x=int(input("Enter a no.."))
+y=int(input("Enter a no.."))
+if x>y:
+   print("x is max ",x)
+else
+   print("y is max",y)
+
+ex:-
+wap to read 3 nos and find out bigger no.
+x=eval(input("Enter a no.."))
+y=eval(input("Enter a no.."))
+z=eval(input("Enter a no.."))
+if x>y and x>z:
+   print("x is max ",x)
+elif y>z
+   print("y is max",y)
+else
+    print("z is max")
+
+Note:-evel function can take any value..but int function
+can take only int value
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+2-Iterative statements/Looping strucuture
+............................
+looping structure is used to excecute set of statements repeatdtly.
+
+for loop
+while loop
+do while is not in python..
+
+for loop
+...........
+for loop work as foreach loop
+
+for each elements in sequence:
+           do action...
+syntax:
+ for x in s:
+         do some action
+ 
+where s is source of data ,it can be int,float,list,set....
+for each iteration value of s is copy to the x
+and it automatically incremented one by one.. 
+
+Ex:=
+s="btps kanpur"
+
+for x in s:
+     print(x)
+
+ex:-
+l=[10,20,30,40]
+for x in l:
+    print(x)
+
+wap to print your name 10 times.
+
+for z in  range(10) :
+   print("btps")
+
+
+wap to read a no. and print all nos from 1 to that no.
+
+x=eval(input("Enter a no.."))      //10
+for z in  range(0,x) :
+   print(z)
+   
+
+print even nos from 1 to 20
+
+for x in range(21)
+     if x%2==0
+        print(x)
+
+print 10 to 1 in decending order
+range(10,1,-1)
+
+ex:
+for x in range(10,1,-2)
+
+
+
+wap to read string and print their index along with that character.
+
+s=input("Enter a string")
+i=0
+for x in s:
+      print("the character present at",i,"is",x)
+       i+=1   //i=i+1 
+Ex:-
+l=eval(input("Enter some list"))  [10,20,30,40]
+s=0
+for x in l:
+    s=s+x;
+    
+print("total is ",s)
+
+
+while loop
+.................
+this loop is also used to excecute the code repeatdtly.
+
+while condtion:
+       statement....
+
+if condtion is true then only statement will excecuted.
+
+ex:-
+   n=1
+    while n<=10:
+       print(n)
+        n+=1     //n=n+1
+
+
+
+Ex:
+#wap to read a no and print all nos from 1 to that no..
+
+a=eval(input("Enter a no..."))   #20
+n=1
+while n<=a:
+	print(n)
+	n+=1     #n=n+1
+#wap to read a no and sum of all nos from 1 to that no.
+n=int(input("Enter some no."))
+s=0
+i=1;
+while i<=n:
+	s=s+i
+	i+=1
+print("sum is",s)  
+
+
+Ex:-
+    i=0
+   while True:
+	i+=1
+	print("btps")
+
+#this loop work infinite time
+
+Ex:-
+name=""
+pwd=""
+while name!="btps" and pwd!="admin":
+	name=input("Enter Name:")
+	pwd=input("Enter pwd:")
+print("Exit the loop")
+
+Nested loop
+..................
+if A Loop is defined with in a loop then scuh type of structure is called as Nested loop.
+
+
+
+Ex:-
+n=int(input("Enter number of rows"))
+for i in range(n):  #row number n=2
+	for j in range(n):  #no of *
+	print("*","")
+    print()	
+
+
+
+
+
+
+
+3-Transfer statements
+............................
+break
+continue
+pass
+
+
+break statement
+...................
+break statement is used to break the loop, means to exit from loop.
+it is used to throw the programme control out of loop .
+
+ex:-
+for i in range(10):
+	if i==5:
+
+		break
+	print(i)
+
+Ex:-
+     pp=[10,20,30,40,200,300,400,500]
+
+for i in pp:
+	if i>=300:
+		break
+	print(i)
+	
+	
+continue statement
+.........................
+this statement is used throw the programme control at the starting of the loop.
+
+Ex:-
+
+for i in range(10):
+	if i%2==0:
+		continue
+	print(i)         
+
+pass statement
+.................
+it is keyword in Python
+When the pass statement is executed, nothing happens, 
+but you avoid getting an error when empty code is not allowed.
+
+Empty code is not allowed in loops, function definitions, class definitions, or in if statements.
+so for empty statement we can use pass statement.
+>it is an empty statement.
+>it is null staement.
+>it won't do anything.
+
+
+Ex:-
+
+def f1():
+	print("btps")
+def f2():
+	print("kanpur")
+f1()
+f2()
+           O/p is btps kanpur
+
+But if we are not writing any code inside the
+function then it will get error.
+If we dont' want to write any code in function ,if,for ,then
+simply we can use pass satement.
+
+def f1():
+	print("btps")
+def f2():
+	pass
+f1()
+f2()
+
+Ex:2
+
+for s in 'btps': 
+   if s == 's':
+      pass
+      print ('This is pass block')
+   print ('Current Letter :',s)
+
+
+del keyword in Python
+........................
+1-del is keyword in Python
+2-del keyword is used to destroy the 
+refvar as well as corresponding 
+Object also.
+Ex:-
+
+x=10
+print(x)
+del x
+print(x)  #invalid
+
+None keyword in python
+...........................
+
+but None keyword is only destroy the
+corresponding Object not refvar.
+
+Ex:-
+
+x=10
+y=20
+del x
+y=None
+print(y)   # valid
+print(x)    #invalid
+
+Note:-
+if Multiple refvar pointing to same Object
+and if I am deleting one refvar then that Object will
+not deleted by Garbage collector
+
+Ex:-
+s="btps"
+s1="btps"
+s2="btps"
+del s
+print(s)  #invalid
+print(s1)  #valid
+print(s2)  #valid
+
+
+funtions in Python  
+...........................
+
+
+
+...
+.......................
+
+
+
+
+Function arguments
+......................
+there are 4 Approches are there to call the functions
+1-default arguement
+2-required argument
+3-keyword arg
+4-var-arg
+
+1-default argrument
+....................
+
+ex:-
+def disp(id=1,name="anuj",sal=1000.23)
+	print(id,name,sal)
+
+disp()
+disp(111)
+disp(333,"btps")
+disp(444,"jai",2000.4)
+requiered Argument
+....................
+ex:-
+
+def disp(id,name,sal)
+	print(id,name,sal)
+
+disp(444,"jai",2000.4)
+
+Note:-
+once the default arg 
+started next all arg must be default argument
+
+keyword arguments
+......................
+ex:--
+
+def info(id,name,sal):
+	print("id is ",id,"my name is "+name,"my sal is ",sal)
+
+
+info(sal=1000,id=100,name='anuj')
+
+Note:--In keyword arguemnt sequence is not matter..
+
+
+var-arguments
+....................
+we can pass any no. of arguments.
+
+ex:
+
+def disp(*a)
+	for x in a:
+		print(x)
+
+disp()
+disp(10)
+disp(10,20,30)
+
+ex:
+
+def disp(name,*a)
+	for x in a:
+		print(x)
+
+disp("ram")
+disp("shyam",10)
+disp("radha",20,30)
+disp("radha",20,30,40,50,60,70)
+
+Ex:
+
+def disp(name="ram",*a)
+	for x in a:
+		print(x)
+disp()
+disp("ram")
+disp("shyam",10)
+disp("radha",20,30)
+
+def disp(*a,name):
+	print(name)
+	for x in a:
+		print(x)
+
+disp(name="ram")
+disp(10,20,30,name="ram")
+
+funtion return type
+........................
+Any function can return any type of value.
+we use return keyword inside the function.
+
+def disp():
+	print("ram")
+	return 10;
+x=disp()
+print("return value is ",x)
+
+
+ex:-
+
+def disp():
+	if  10>20:
+		return "ram"
+	else
+		return "seeta"
+
+x=disp()
+print(x)
+
+
+Note:- if Function is not returning any value
+then by defailt it will return None value.
+
+def disp()
+	print("ram")
+x=disp()
+print(x)   #None
+
+
+
+
+inner function(Nested Function)
+.................
+if A function is declare inside the function is called as inner function or Nested Function
+in python .
+Pyhton support inner function conecept.
+
+
+
+ex:
+
+def outer():
+	s="ram"
+	print("outer function var=",s)
+	
+	def inner():
+		s1="seeta"
+		print("inner function var name is s1=",s1)
+		print(s)
+
+outer()
+	inner() #calling
+
+Note:-Outer fun varibale can access 
+inside innner fun.
+
+Anonymous Function (Lamda Function)
+....................................
+>if A function is defined without any  name is
+called as anonyous function.
+>It is also called as name less function.
+>These type of funtion can declare by using
+lambda keyword in Python.
+
+Why we use Anonyous Fun/Labmda function.
+1-For Instant usage.
+2-Reduce the Lines of code.
+3-Increase the readability.
+
+Syntax:
+lambda input_arguemnts: Expression(logic code)
+
+
+
+
+EX>By using Normal Function Approch
+
+def squ(n):
+	return n*n
+print(squ(4))
+print(squ(5))
+
+>By using Lambda Funtions
+...........................
+ex1:-
+x=lambda n:n*n
+print(x(4))
+
+
+ex:2
+
+a=lambda x:x*2
+print(a(10))
+print(a(20))
+
+exe:-3
+
+a=lambda x,y:x*y
+print(a(10,20))
+
+
+ex:4
+b=lambda x,y:x if x>y else y
+print(b(3,4))
+
+The best use of Lambda is along with filter ,along with map,along with
+reduce.
+so First Clear the concept of filter(),map(),reduce()
+
+
+
+filter() function
+........................
+>filter() function is used to check some squence of values based on some condtion.
+>The filter() funtion filters the given sequence with the help of a function that tests each element in the sequence to be true or not.
+>it is built-in function.
+syntax:
+
+filter(function, sequence)
+
+1 Paramter is function : function that tests if each element of a 
+sequence true or not.
+
+2nd Parameter is sequence: sequence which needs to be filtered, it can 
+be sets, lists, tuples, or containers of any iterators.
+
+ex:-
+def even(x):
+	if x%2==0:
+		return True
+	else
+		return False
+l=[10,20,30,3,5,8]
+   l1=list(filter(even,l))
+print(l1)    [10,20,30,8]
+
+By using Lambda function 
+
+Ex:-
+l=[2,4,5,7,8,9]
+l1=list(filter(lambda x:x%2!=0,l))
+print(l1)
+
+
+map() function
+...................
+1-it is built- in function.
+2-The map() function calls the specified function for each item of an 
+iterable (such as string, list, tuple or dictionary) and returns a list of results.
+
+Syntax:
+
+map(funcion,sequence)
+
+Ex:-
+
+def double(x):
+	return 2*x
+l=[2,4,5,7,8,9]
+l1=list(map(double,l))
+print(l1)
+
+By using Lambda Function
+
+ex:-
+l=[2,4,5,7,8,9]
+l1=list(map(lambda x:x*2,l))
+print(l1)
+ex:-
+l1=[2,4,6,8,3]
+l2=[10,20,30,40,50]
+l3=list(map(lambda x,y:x*y,l1,l2))
+print(l3)
+
+#40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
